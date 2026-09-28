@@ -1,0 +1,20 @@
+Feature_Name,Original_Feature_Index,Screening_Importance
+Non_Agriculture_Income,3,0.7305392695995232
+Total_Land_For_Agriculture,4,0.03719404357260816
+perc_of_pop_living_in_hh_electricity,15,0.004185468201895578
+K021-Seasonal Average Rainfall (mm),10,0.003820611501063861
+DISTRICT,69,0.0033347843492703864
+Rabi Seasons  Season Irrigated area in 2022,30,0.0030359098845851207
+Road density (Km/ SqKm),64,0.0028881974357311997
+State,65,0.0028539871963635796
+Rabi Seasons Kharif Season Irrigated area in 2021,36,0.002794886889643858
+VILLAGE,70,0.002716311963544871
+K022-Nearest Mandi Name,75,0.0024647604209205006
+R021-Ambient temperature (min & max),81,0.0023545898560702566
+Rabi Seasons Seasonal average groundwater thickness (cm) in 2022,34,0.002308400814135502
+K022-Net Agri area (% of total geog area)-,23,0.002289201497258376
+Rabi Seasons Seasonal average groundwater thickness (cm) in 2020,58,0.002214114592187634
+Kharif Seasons Kharif Season Irrigated area in 2020,48,0.002210427604366614
+Rabi Seasons Kharif Season Irrigated area in 2020,54,0.00219942349719152
+SEX,67,0.0021864409843947966
+Rabi Seasons Agricultural performance in 2020,56,0.0021669896852156783

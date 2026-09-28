@@ -1,0 +1,26 @@
+project:
+  name: AI-Based Farmer Income Prediction and Agricultural Socio-Economic Analysis
+  method: Artificial Immune System Feature Selection
+  target: Target_Variable/Total Income
+  problem: Regression
+preprocessing:
+  encoding: OrdinalEncoder
+  numeric_scaling: StandardScaler
+  numeric_imputation: Median
+  categorical_imputation: Most Frequent
+  dtype: float32
+  processed_feature_count: 102
+ais:
+  population: 20
+  generations: 15
+  clone_factor: 4
+  mutation_rate: 0.08
+  candidate_pool: 60
+  selected_features: 9
+  best_fitness: 0.8746067844044606
+validation_metrics:
+  MAE: 645252.75
+  MSE: 4242366267392.0
+  RMSE: 2059700.5285701123
+  R2: 0.03862178325653076
+  Explained_Variance: 0.04365056753158569

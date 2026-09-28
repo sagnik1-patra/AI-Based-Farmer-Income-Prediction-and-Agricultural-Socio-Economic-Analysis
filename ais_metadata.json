@@ -1,0 +1,32 @@
+{
+    "project": "AI-Based Farmer Income Prediction",
+    "optimization": "Artificial Immune System",
+    "memory_efficient": true,
+    "encoding": "Ordinal Encoding",
+    "original_features": 102,
+    "processed_features": 102,
+    "ais_candidate_features": 60,
+    "ais_selected_features": 9,
+    "selected_feature_names": [
+        "Non_Agriculture_Income",
+        "No_of_Active_Loan_In_Bureau",
+        "perc_of_pop_living_in_hh_electricity",
+        "Kharif Seasons  Cropping density in 2022",
+        "K021-Ambient temperature (min & max)",
+        "CITY",
+        "Rabi Seasons Seasonal average groundwater thickness (cm) in 2022",
+        "perc_Households_do_not_have_KCC_With_The_Credit_Limit_Of_50k",
+        "Village score based on socio-economic parameters (0 to 100)"
+    ],
+    "best_ais_fitness": 0.8746067844044606,
+    "training_metrics": {
+        "MAE": 645806.0,
+        "RMSE": 2022386.908312057,
+        "R2": 0.04285484552383423
+    },
+    "validation_metrics": {
+        "MAE": 645252.75,
+        "RMSE": 2059700.5285701123,
+        "R2": 0.03862178325653076
+    }
+}

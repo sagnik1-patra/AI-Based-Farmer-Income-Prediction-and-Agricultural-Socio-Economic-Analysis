@@ -1,0 +1,45 @@
+{
+    "project": "AI-Based Farmer Income Prediction",
+    "optimization": "Binary Particle Swarm Optimization",
+    "memory_efficient": true,
+    "encoding": "OrdinalEncoder",
+    "processed_features": 102,
+    "candidate_features": 60,
+    "selected_features": 19,
+    "selected_feature_names": [
+        "Non_Agriculture_Income",
+        "Total_Land_For_Agriculture",
+        "perc_of_pop_living_in_hh_electricity",
+        "K021-Seasonal Average Rainfall (mm)",
+        "DISTRICT",
+        "Rabi Seasons  Season Irrigated area in 2022",
+        "Road density (Km/ SqKm)",
+        "State",
+        "Rabi Seasons Kharif Season Irrigated area in 2021",
+        "VILLAGE",
+        "K022-Nearest Mandi Name",
+        "R021-Ambient temperature (min & max)",
+        "Rabi Seasons Seasonal average groundwater thickness (cm) in 2022",
+        "K022-Net Agri area (% of total geog area)-",
+        "Rabi Seasons Seasonal average groundwater thickness (cm) in 2020",
+        "Kharif Seasons Kharif Season Irrigated area in 2020",
+        "Rabi Seasons Kharif Season Irrigated area in 2020",
+        "SEX",
+        "Rabi Seasons Agricultural performance in 2020"
+    ],
+    "best_pso_fitness": 0.8479002809141002,
+    "training_metrics": {
+        "MAE": 587872.9375,
+        "MSE": 4272898965504.0,
+        "RMSE": 2067099.1668287227,
+        "R2": 6.461143493652344e-05,
+        "Explained_Variance": 0.00010955333709716797
+    },
+    "validation_metrics": {
+        "MAE": 590851.0,
+        "MSE": 4421137727488.0,
+        "RMSE": 2102650.16764273,
+        "R2": -0.0018903017044067383,
+        "Explained_Variance": -0.0016845464706420898
+    }
+}

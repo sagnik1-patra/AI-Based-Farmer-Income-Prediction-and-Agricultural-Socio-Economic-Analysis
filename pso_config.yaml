@@ -1,0 +1,30 @@
+project:
+  name: AI-Based Farmer Income Prediction and Agricultural Socio-Economic Analysis
+  method: Binary Particle Swarm Optimization
+  target: Target_Variable/Total Income
+  problem_type: Regression
+preprocessing:
+  categorical_encoding: OrdinalEncoder
+  numeric_scaling: StandardScaler
+  numeric_imputation: Median
+  categorical_imputation: Most Frequent
+  dtype: float32
+  total_processed_features: 102
+pso:
+  particles: 20
+  iterations: 20
+  candidate_pool_size: 60
+  minimum_features: 8
+  maximum_features: 35
+  cognitive_coefficient: 2.0
+  social_coefficient: 2.0
+  inertia_max: 0.9
+  inertia_min: 0.4
+  selected_features: 19
+  best_fitness: 0.8479002809141002
+validation_metrics:
+  MAE: 590851.0
+  MSE: 4421137727488.0
+  RMSE: 2102650.16764273
+  R2: -0.0018903017044067383
+  Explained_Variance: -0.0016845464706420898

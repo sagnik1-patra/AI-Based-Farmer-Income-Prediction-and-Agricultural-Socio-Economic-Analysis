@@ -1,0 +1,10 @@
+Feature_Name,Original_Feature_Index,Importance
+Non_Agriculture_Income,3,0.7305392695995232
+No_of_Active_Loan_In_Bureau,1,0.008059472405439463
+perc_of_pop_living_in_hh_electricity,15,0.004185468201895578
+Kharif Seasons  Cropping density in 2022,25,0.003324311416871125
+K021-Ambient temperature (min & max),80,0.0030182511166144486
+CITY,68,0.002864643665932081
+Rabi Seasons Seasonal average groundwater thickness (cm) in 2022,34,0.002308400814135502
+perc_Households_do_not_have_KCC_With_The_Credit_Limit_Of_50k,20,0.0022321114754698984
+Village score based on socio-economic parameters (0 to 100),62,0.002133842451401063
