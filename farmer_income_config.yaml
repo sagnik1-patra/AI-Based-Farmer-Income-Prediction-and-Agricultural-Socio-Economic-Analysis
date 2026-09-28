@@ -1,0 +1,34 @@
+project:
+  name: AI-Based Farmer Income Prediction and Agricultural Socio-Economic Analysis
+  problem_type: Regression
+  target: Target_Variable/Total Income
+dataset:
+  training_rows: 47970
+  test_rows: 9986
+  feature_count: 104
+  numeric_features: 66
+  categorical_features: 38
+  processed_features: 40672
+preprocessing:
+  numeric_missing: median
+  categorical_missing: most_frequent
+  numeric_scaler: StandardScaler
+  categorical_encoder: OneHotEncoder
+  target_scaler: StandardScaler
+model:
+  type: Artificial Neural Network
+  layers:
+  - 256
+  - 128
+  - 64
+  - 32
+  optimizer: Adam
+  learning_rate: 0.001
+  loss: MSE
+  epochs: 150
+  batch_size: 64
+validation_metrics:
+  mae: 359036.30354583595
+  mse: 718768464281.5671
+  rmse: 847802.1374598952
+  r2: 0.8371172410700027
